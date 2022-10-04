@@ -11,3 +11,14 @@ body {
     color: white;
     padding: 15px;
 }
+
+.sidebar {
+    background-color: #041D03;
+}
+
+.large-page {
+    background-color: #3A4E16 !important;
+    color: #ffffffcc;
+    padding: 4em;
+
+}
