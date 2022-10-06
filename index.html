@@ -3,32 +3,9 @@
 <head>
     <title>Topnav with sidebar</title>
     <!-- Import bootstrap cdn -->
-    <link rel="stylesheet" href=
-"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity=
-"sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
         crossorigin="anonymous">
-    <!-- Import jquery cdn -->
-    <script src=
-"https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity=
-"sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous">
-    </script>
-    <!-- Import popper.js cdn -->
-    <script src=
-"https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity=
-"sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous">
-    </script>
-    <!-- Import javascript cdn -->
-    <script src=
-"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity=
-"sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous">
-    </script>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -37,21 +14,24 @@
         <!-- h-100 takes the full height
                 of the container-->
         <div class="row h-100">
-            <div class="col-2" id="green" style="background-color: #303335;">
+            <div class="col-2 sidebar" >
                 <br/>
-                <h4>Binary Brains</h4>
+                <a href="index.html"><h4 style="color:#ffffffcc;">Binary Brains</h4> </a>
                 <br/>
-                <!-- Navigation links in sidebar-->
                 <a href="Milestone1.html">Milestone 1</a><br />
                 <br />
                 <a href="Milestone2.html">Milestone 2</a><br />
+                <a href="M2ptA.html">Part A</a><br />
+                <a href="M2ptB.html">Part B</a><br />
+                <a href="M2ptC.html">Part C</a><br />
+                <a href="M2ptD.html">Part D</a><br />
                 <br />
                 <a href="Milestone3.html">Milestone 3</a><br />
                 <br />
                 <a href="Milestone4.html">Milestone 4</a><br />
                 <br />
             </div>
-            <div class="col-10" style="padding: 4em; background-color: #626567!important; color: #ffffffcc;">                
+            <div class="col-10 large-page">                
                 <h1>CSCI 4800(H) Fall 2022
                 </h1>
                 <br/>
@@ -79,7 +59,9 @@
 
                 </div>
                 
- 
+                <div class="footer">
+                    <div style="float: right"><a href="Milestone1.html">Milestone 1</a></div>
+                </div>
             </div>
         </div>
     </div>

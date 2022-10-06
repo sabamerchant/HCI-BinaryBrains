@@ -4,10 +4,25 @@ html,
 body {
     height: 100%;
 }
-#green {
-    height: 100%;
-    background: black;
+
+.sidebar {
+    background-color: #041D03;
     text-align: center;
     color: white;
     padding: 15px;
+}
+
+.large-page {
+    background-color: #3A4E16 !important;
+    color: #ffffffcc;
+    padding: 4em;
+
+}
+
+.footer {
+    position: absolute; 
+    bottom: 0; 
+    width: 90%; 
+    height: 50px; 
+    display:inline
 }
