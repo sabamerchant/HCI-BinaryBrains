@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Topnav with sidebar</title>
+    <!-- Import bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- h-100 takes the full height of the body-->
+    <div class="container-fluid h-100">
+      <!-- h-100 takes the full height
+of the container-->
+      <div class="row h-100">
+        <div class="col-2 sidebar">
+          <br/>
+          <a href="index.html"><h4 style="color:#ffffffcc;">Binary Brains</h4> </a>
+          <br/>
+          <a href="Milestone1.html">Milestone 1</a><br />
+          <br />
+          <a href="Milestone2.html">Milestone 2</a><br />
+          <a href="M2ptA.html">Part A</a><br />
+          <a href="M2ptB.html">Part B</a><br />
+          <a href="M2ptC.html">Part C</a><br />
+          <a href="M2ptD.html">Part D</a><br />
+          <br />
+          <a href="Milestone3.html">Milestone 3</a><br />
+          <br />
+          <a href="Milestone4.html">Milestone 4</a><br />
+          <a href="M4G1.html">Group 1</a><br />
+          <a href="M4G2.html">Group 2</a><br />
+          <a href="M4G3.html">Group 3</a><br />
+          <a href="M4G4.html">Group 4</a><br />
+          <a href="M4G5.html">Group 5</a><br />
+          <a href="M4G6.html">Group 6</a><br />
+          <a href="M4P2.html">Part B</a><br />
+          <br />
+        </div>
+        <div class="col-10 large-page">
+          <h1 style= "color:#ffffffcc;">Milestone 4</h1>
+          <br />
+          <div>
+            <h2>Group 5: </h2>     
+            <p>These are all user stories that are relevant to the proposed solution because these user stories all describe instances where students or instructions want to navigate to different classes or pages on the website.
+              https://www.w3.org/WAI/WCAG21/quickref/#navigable
+              Requirement/tips on navigation
+            </p>
+            <div>
+              <h4>User Story 10:</h4>
+              <p>As a student, I want to be able to access the home page from the tool bar so that I can easily access my home page.</p>
+              <p>Alt Design Idea Have website name be the home page button in the toolbar.</p>
+              <p>
+                Description & Justification: 
+                In our problem of study, readability was a prevalent problem in the toolbar. The function to navigate to the homepage was difficult to identify as the logo in the top left corner does not have a contrasting hover cue. This leads the user to believe that there is no navigation option from here. To address the issue, our user story prompts the user to clicks on the piazza website title in the top-left corner and it changes their main window to point to main page content. This allows the user to quickly and easily navigate between forum posts being on their main content window and the main page content, allowing the user to easily donate and access quick links. This background of the homepage button has a color change when hovering to indicate that it has an action associated with it.
+
+                We justified the background color change of being slightly darker one hover using a research paper written by Pashler, et al. In this paper they conclude from experiment 2 that user’s default tendencies or more drawn to high contrast items. To justify our design decision to have the homepage content shown once clicking on the website’s logo we reference popular web applications such as Facebook, Amazon, and an education platform like ELC, that all take you to the web page’s main page content upon clicking the Icon, typically located in the top-left corner.
+
+                We chose this idea as our high fidelity one because the research we found indicated that this option was the better one in terms of user experience. Compared to our other alternative design choices, this design choice it the most straight forward, and most commonly used within the industry. 
+
+                References
+                https://baymard.com/blog/links-hover-state 
+                https://www.sciencedirect.com/science/article/pii/S0042698904000057
+                https://uga.view.usg.edu/d2l/home
+                https://www.facebook.com/
+                https://www.amazon.com/
+                
+              </p>
+              <video width="500" height="500" controls>Your browser does not support the &lt;video&gt; tag.
+                <source src="userStoryVideos/Home Page Navigation Flow.mov"/>
+              </video>
+            </div>
+            <br/>
+            <br/>
+            <div>
+              <h4>User Story 11:</h4>
+              <p>As a student, I want to be able to read the toolbar so I can navigate to new pages.</p>
+              <p>Alt Design Idea Have a dropdown to show all the possibilitiies of pages that can be reached with a change page button.</p>
+              <p>
+                Description & Justification: 
+                In our problem of study, readability was a prevalent problem in the toolbar. The page switching function was difficult to identify as the toolbar doesn’t clearly indicate that there are multiple pages to navigate to. Reasons for this are unclear description of text. To address the issue our user story prompts the user to hover on the page toolbar option, upon hover a dropdown menu with page options appear, upon hovering on page option, there is a change in color to signify that that page is the option the user is selecting. In this context, pages are classes meaning that users of this education platform will have the option to easily navigate to the desired course.
+
+                We justified the hover dropdown menu design choice using the Baymard Institute article detailing the importance of the hover state. The article states that this design choice is important because it impacts the way users navigate web applications. The change in color is also supported by concepts described in the same article. The article details that the change in color for different page links underscores the clickability, and informs the user whether the mouses is over a “hit-area” or not. 
+
+                We chose this idea as our high fidelity one because the research we found indicated that this option was the better one in terms of user experience. 
+
+                References
+                https://baymard.com/blog/links-hover-state 
+
+              </p>
+              <video width="500" height="500" controls>Your browser does not support the &lt;video&gt; tag.
+                <source src="userStoryVideos/Page Change Dropdown Flow.mov"/>
+              </video>
+            </div>
+            <br/>
+            <br/>
+            <div>
+              <h4>User Story 12:</h4>
+              <p>As a student using Piazza, I want to be able to change the class that I can see the information for.</p>
+              <p>Alt Design Idea Have a multi-select section to check the classes whose information you want to see.</p>
+              <p>
+                Description & Justification: 
+                In our problem of study, readability was a prevalent problem in the toolbar. The class switching function was difficult to identify as the toolbar doesn’t clearly indicate that there are multiple class to navigate to, since it only says the name of one class at the top of the screen. Reasons for this redesign are unclear description of text on the toolbar. To address the issue our user story prompts the user to hover over the class tab. In the second frame to the right, we depict a view of Piazza where the pages tab is hovered over, we are able to see the different class pages. We felt that the hover item would provide quick access and easier understanding for users to click on check boxes which class/classes they would like to see. We also hoped this quick accessibility would afford more readability to select which class/classes you want to see information for.
+
+                To justify adding the ability to hover, the hover ability triggers a user to that there is an option for action, as discusses in the Baynard Institute article. In the Medium Article, the author concludes that the dropdown multi-select option allows users to “zoom into” topics they are interested in. Emphasizing our design choice, since we are aiming to enable them to choose what they would like to view. This same research article states that multi-select dropdown menu helps when it comes to unfamiliar items, because it visually exposes the items instead of hiding them to users. 
+
+                We chose this idea as our high fidelity one because the research we found indicated that this option was the better one in terms of user experience. 
+
+                References
+                https://mayvenstudios.com/blog/designing-hover-styles-and-the-future-of-the-technique
+                https://medium.com/tripaneer-techblog/improving-the-usability-of-multi-selecting-from-a-long-list-63e1a67aab35
+                https://baymard.com/blog/links-hover-state 
+
+              </p>
+              <video width="500" height="500" controls>Your browser does not support the &lt;video&gt; tag.
+                <source src="userStoryVideos/Class Change Flow.mov"/>
+              </video>
+            </div>
+            
+          </div>
+            <div class="footer">
+              <div style="float: left"><a href="M4G4.html">Milestone 4 G4</a></div>
+              <div style="float: right"><a href="M4G6.html">Milestone 4 G6</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
